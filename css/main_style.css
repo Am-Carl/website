@@ -27,12 +27,12 @@ img{
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: rgb(9, 230, 163);
+    background: rgb(0,0,0);
 }
 ::-webkit-scrollbar-thumb {
     background: rgb(238, 5, 106);
     border-radius: 10px;
-    border: 2px solid rgb(9, 230, 163);
+    border: 2px solid rgb(0,0,0);
 }
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(193, 9, 110);
