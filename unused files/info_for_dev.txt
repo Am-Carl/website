@@ -1,4 +1,0 @@
-to update the repository right click the website folder and open the terminal
-then type 'git add .'
-then type 'git commit -m "describe your update"'
-then type 'git push'
