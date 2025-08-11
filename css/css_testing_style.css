@@ -3,6 +3,19 @@
     background-color: rgba(27, 255, 225, 0.5);
     border: 5px solid navy;
     border-radius: 10px;
-    
-
+}
+body {
+    cursor: wait;
+}
+.button{
+    display:inline-block;
+    padding: 10px 20px;
+    background-color:rgba(27, 255, 103, 0.5);
+    color:white;
+    text-decoration: none;
+    border-radius: 8px;
+    border:5px solid rgba(21, 167, 74, 0.5);
+}
+.button:hover{
+    background-color:rgba(27, 255, 225, 0.5);
 }
