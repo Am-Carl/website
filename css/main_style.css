@@ -2,6 +2,7 @@ html{
     border: 100px solid transparent;
     margin: 0px;
     border-image: url("./extra files/border.png") 1650 round;
+    scrollbar-color: rgb(238,5,106) rgb(0,0,0);
 }
 
 body{
@@ -23,15 +24,16 @@ img{
     border: 3px solid rgb(9, 230, 163);
     border-radius: 10px;
 }
+
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 8px;
 }
 ::-webkit-scrollbar-track {
     background: rgb(0,0,0);
 }
 ::-webkit-scrollbar-thumb {
     background: rgb(238, 5, 106);
-    border-radius: 10px;
+    border-radius: 8px;
     border: 2px solid rgb(0,0,0);
 }
 ::-webkit-scrollbar-thumb:hover {
