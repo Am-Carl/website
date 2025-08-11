@@ -24,7 +24,7 @@ img{
     border-radius: 10px;
 }
 ::-webkit-scrollbar {
-    width: 2%;
+    width: 10px;
 }
 ::-webkit-scrollbar-track {
     background: rgb(9, 230, 163);
