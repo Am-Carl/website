@@ -19,3 +19,6 @@ body {
 .button:hover{
     background-color:rgba(27, 255, 225, 0.5);
 }
+.button:active{
+    background-color:rgba(21, 167, 145, 0.5);
+}
