@@ -23,6 +23,19 @@ img{
     border: 3px solid rgb(9, 230, 163);
     border-radius: 10px;
 }
+::-webkit-scrollbar {
+    width: 2%;
+}
+::-webkit-scrollbar-track {
+    background: rgb(9, 230, 163);
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(238, 5, 106);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(193, 9, 110);
+}
+
 a:link {
     color: rgb(238, 5, 106);
 
@@ -36,7 +49,6 @@ a:hover{
 a:active{
     color: rgb(174, 8, 251);
 }
-
 
 .button{
     display:inline-block;
