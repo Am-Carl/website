@@ -2,7 +2,7 @@ html{
     border: 100px solid transparent;
     margin: 0px;
     border-image: url("./extra files/border.png") 1650 round;
-    scrollbar-color: rgb(238,5,106) rgb(0,0,0);
+    scrollbar-color: rgb(255, 0, 79) rgb(0,0,0);
     scrollbar-width: thin;
 }
 
@@ -27,11 +27,11 @@ img{
 }
 
 a:link {
-    color: rgb(238, 5, 106);
+    color: rgb(255, 0, 79);
 
 }
 a:visited{
-    color: rgb(193, 9, 110);
+    color: rgb(255, 0, 79);
 }
 a:hover{
     color: rgb(244, 6, 224);
