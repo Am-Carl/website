@@ -24,6 +24,20 @@ img{
     border: 3px solid rgb(255, 0, 79);
     border-radius: 10px;
 }
+button {
+    background-color: rgb(8, 207, 147);
+    color: rgb(255, 0, 79);
+    border: 2px solid rgb(255, 0, 79);
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(9, 230, 163);
+    border-color: rgb(244, 6, 224);
+}
+button:active {
+    border-color: rgb(174, 8, 251)
+}
 
 :focus-visible {
     outline: 2px solid rgb(174, 8, 251);
