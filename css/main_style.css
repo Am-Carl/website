@@ -84,19 +84,16 @@ a:visited:active {
 .button{
     display:inline-block;
     padding: 10px 20px;
-    background-color: var(--darker-secondary-color);
+    background-color: var(--secondary-color);
     color: var(--tertiary-color);
     text-decoration: none;
     border-radius: 8px;
-    border:5px solid var(--tertiary-color);
+    border:3px solid var(--tertiary-color);
 }
 .button:visited{
-    background-color: var(--dark-secondary-color);
     border-color: var(--quaternary-color);
-    color: var(--quaternary-color);
 }
 .button:hover{
-    background-color: var(--secondary-color);
     border-color: var(--bright-tertiary-color);
 }
 .button:active{
