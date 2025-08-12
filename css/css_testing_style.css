@@ -1,8 +1,9 @@
 #css_testing_1 {
     display: inline-block;
-    background-color: rgba(27, 255, 225, 0.5);
-    border: 5px solid navy;
+    background-color: rgb(6, 161, 114);
+    border: 3px solid rgb(255, 0, 79);
     border-radius: 10px;
+    padding: 5px;
 }
 body {
     cursor: wait;

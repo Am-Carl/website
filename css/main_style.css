@@ -13,17 +13,20 @@ body{
 }
 hr{
     height: 1%;
-    border-color: rgb(9, 230, 163);
+    border-color: rgb(255, 0, 79);
 }
 audio{
-    border: 3px solid rgb(9, 230, 163);
+    border: 3px solid rgb(255, 0, 79);
     border-radius: 100px;
     width: 20%;
-    background-color: rgb(9, 230, 163);
 }
 img{
-    border: 3px solid rgb(9, 230, 163);
+    border: 3px solid rgb(255, 0, 79);
     border-radius: 10px;
+}
+
+:focus-visible {
+    outline: 2px solid rgb(174, 8, 251);
 }
 
 a:link {
