@@ -26,13 +26,17 @@
             are<br>
             you<br>
             doing</p><br>
-            <!--
-            <form action="webhook url" method="post">
-                <label>you can send me stuff from this</label>
-                <input type="text" name="message" placeholder="type here">
+            <form action="webhook url" method="post" target="_blank">
+                <label>text</label><br>
+                <input type="text" name="message" id="message-input" placeholder="type here"><br>
+                <label>type of message</label><br>
+                <select name="type-of-message" required>
+                    <option value="">choose message type</option>
+                    <option value="message">message</option>
+                    <option value="feedback">feedback</option>
+                </select>
                 <input type="submit" value="send">
             </form>
-            -->
             <hr>
             <h2>emphasied/italic text</h2>
             <p><em>look its ephisised/italic</em></p>
