@@ -63,7 +63,15 @@ button:active {
 }
 
 a:link {
-    color: var(--tertiary-color);
+    background-color: linear-gradient(to right,
+    var(--tertiary-color),
+    var(--bright-tertiary-color),
+    var(--brighter-tertiary-color),
+    var(--bright-tertiary-color),
+    var(--tertiary-color));
+    background-size: 200% auto;
+    background-clip: text;
+    color: transparent;
 }
 a:visited{
     color: var(--quaternary-color);
