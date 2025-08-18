@@ -72,6 +72,7 @@ a:link {
     background-size: 200% auto;
     background-clip: text;
     color: transparent;
+    animation: text-color-move 2s linear infinite;
 }
 a:visited{
     color: var(--quaternary-color);
@@ -112,4 +113,10 @@ a:visited:active {
 }
 .button:visited:active {
     border-color: var(--brighter-quaternary-color);
+}
+
+@keyframes text-color-move {
+    to {
+        background-position: 200% center;
+    }
 }
