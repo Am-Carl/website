@@ -63,19 +63,10 @@ button:active {
 }
 
 a:link {
-    background-image: linear-gradient(to right,
-    var(--tertiary-color),
-    var(--bright-tertiary-color),
-    var(--brighter-tertiary-color),
-    var(--bright-tertiary-color),
-    var(--tertiary-color));
-    color: transparent;
-    background-size: 200% auto;
-    background-clip: text;
-    animation: text-color-move 2s linear infinite;
+    color: var(--tertiary-color);
 }
 a:visited{
-    color: var(--tertiary-color);
+    color: var(--quaternary-color);
 }
 a:hover{
     color: var(--bright-tertiary-color);
@@ -90,7 +81,7 @@ a:visited:active {
     color: var(--brighter-quaternary-color);
 }
 
-.button{
+a.button{
     display:inline-block;
     padding: 10px 20px;
     background-color: var(--secondary-color);
@@ -99,20 +90,33 @@ a:visited:active {
     border-radius: 8px;
     border:3px solid var(--tertiary-color);
 }
-.button:visited{
+a.button:visited{
     border-color: var(--quaternary-color);
 }
-.button:hover{
+a.button:hover{
     border-color: var(--bright-tertiary-color);
 }
-.button:active{
+a.button:active{
     border-color: var(--brighter-tertiary-color);
 }
-.button:visited:hover {
+a.button:visited:hover {
     border-color: var(--bright-quaternary-color);
 }
-.button:visited:active {
+a.button:visited:active {
     border-color: var(--brighter-quaternary-color);
+}
+
+.tertiary-text-gradient {
+    background-image: linear-gradient(to right,
+    var(--tertiary-color),
+    var(--bright-tertiary-color),
+    var(--brighter-tertiary-color),
+    var(--bright-tertiary-color),
+    var(--tertiary-color));
+    color: transparent;
+    background-size: 200% auto;
+    background-clip: text;
+    animation: text-color-move 2s linear infinite;
 }
 
 @keyframes text-color-move {
