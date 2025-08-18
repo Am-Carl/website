@@ -62,23 +62,14 @@ button:active {
     outline: 2px solid var(--brighter-quaternary-color);
 }
 
-a:link {
+a {
     color: var(--tertiary-color);
-}
-a:visited{
-    color: var(--quaternary-color);
 }
 a:hover{
     color: var(--bright-tertiary-color);
 }
 a:active{
     color: var(--brighter-tertiary-color);
-}
-a:visited:hover {
-    color: var(--bright-quaternary-color);
-}
-a:visited:active {
-    color: var(--brighter-quaternary-color);
 }
 
 a.button{
@@ -90,20 +81,11 @@ a.button{
     border-radius: 8px;
     border:3px solid var(--tertiary-color);
 }
-a.button:visited{
-    border-color: var(--quaternary-color);
-}
 a.button:hover{
     border-color: var(--bright-tertiary-color);
 }
 a.button:active{
     border-color: var(--brighter-tertiary-color);
-}
-a.button:visited:hover {
-    border-color: var(--bright-quaternary-color);
-}
-a.button:visited:active {
-    border-color: var(--brighter-quaternary-color);
 }
 
 .tertiary-text-gradient {
