@@ -63,19 +63,19 @@ button:active {
 }
 
 a:link {
-    background-color: linear-gradient(to right,
+    background-image: linear-gradient(to right,
     var(--tertiary-color),
     var(--bright-tertiary-color),
     var(--brighter-tertiary-color),
     var(--bright-tertiary-color),
     var(--tertiary-color));
+    color: transparent;
     background-size: 200% auto;
     background-clip: text;
-    color: transparent;
     animation: text-color-move 2s linear infinite;
 }
 a:visited{
-    color: var(--quaternary-color);
+    color: var(--tertiary-color);
 }
 a:hover{
     color: var(--bright-tertiary-color);
