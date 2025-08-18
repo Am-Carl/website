@@ -10,10 +10,6 @@
     --brighter-tertiary-color: rgb(255, 153, 178);
     --bright-tertiary-color: rgb(255, 102, 130);
     --tertiary-color: rgb(255, 0, 79);
-
-    --brighter-quaternary-color: rgb(229, 174, 255);
-    --bright-quaternary-color: rgb(210, 111, 255);
-    --quaternary-color: rgb(176, 0, 255);
 }
 
 html{
