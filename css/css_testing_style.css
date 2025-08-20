@@ -24,6 +24,17 @@ body {
     transform-origin: center;
 }
 
+.big-hover {
+    display: inline-block;
+    transform: scale(1);
+    transition: transform 1s forwards ease-in-out;
+}
+.big-hover:hover {
+    display: inline-block;
+    transform: scale(1.5);
+    transition: transform 1s forwards ease-in-out;
+}
+
 @keyframes shake {
     0% {transform: translate(0, 0);}
     25% {transform: translate(-1px, -1px);}
