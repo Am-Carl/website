@@ -1,0 +1,56 @@
+details {
+
+}
+details:open {
+    margin-bottom: -0.8em;
+}
+
+summary {
+    width: fit-content;
+    cursor: pointer;
+    margin-left: 15px;
+    list-style-position: outside;
+    list-style-type: disc;
+}
+
+details span {
+    text-decoration: underline;
+    visibility: hidden;
+}
+summary:hover span {
+    visibility: visible;
+}
+
+details ol {
+    padding-left: 65px;
+}
+details li {
+    list-style-position: outside;
+}
+details li:first-child{
+    margin-top: -0.8em;
+}
+details p {  /*song detail text css*/
+    margin-top: 0;
+}
+summary a {
+    text-decoration: none;
+}
+
+.songs-heading {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+.song-details {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+/*goes from the first child to the 9th child*/
+#osu-songs details > details:nth-of-type(1) ol li:nth-child(-n+9) {
+    margin-left: -12px;
+}
+/*goes from the 10th child to the 99th child*/
+#osu-songs details > details:nth-of-type(1) ol li:nth-child(n+10):nth-child(-n+99) {
+    margin-left: -6px;
+}
